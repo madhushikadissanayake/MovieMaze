@@ -177,7 +177,7 @@ const About = () => {
         </Typography>
         <Box mt={3}>
           <Typography variant="body2" color="text.secondary">
-            © 2025 MovieMaze. Built with ❤️ for movie enthusiasts.
+            Built with ❤️ for movie enthusiasts.
           </Typography>
         </Box>
       </Box>
