@@ -48,12 +48,26 @@ export default function MovieDetails() {
       {/* Back Button */}
       <Box sx={{ mb: 3 }}>
         <Button
-          variant="outlined"
-          startIcon={<ArrowBackIcon />}
+          variant="contained"
           onClick={() => navigate('/')}
-          sx={{ mb: 2 }}
+          sx={{ 
+            background: 'linear-gradient(45deg, #e04848, #22958a)',
+            color: 'white',
+            border: 'none',
+            borderRadius: '50%',
+            minWidth: '50px',
+            width: '50px',
+            height: '50px',
+            fontSize: '36px',
+            fontWeight: 'bold',
+            mb: 2,
+            '&:hover': {
+              background: 'linear-gradient(45deg, #c93a3a, #1e7a70)',
+              transform: 'scale(1.1)'
+            }
+          }}
         >
-          Back to Home
+          ‹
         </Button>
       </Box>
 

@@ -19,18 +19,24 @@ export default function Favorites() {
       <Box sx={{ mb: 2 }}>
         <Button 
           onClick={handleBackClick}
-          startIcon={<ArrowBackIcon />}
-          variant="outlined"
+          variant="contained"
           sx={{ 
-            color: 'primary.main',
-            borderColor: 'primary.main',
+            background: 'linear-gradient(45deg, #e04848, #22958a)',
+            color: 'white',
+            border: 'none',
+            borderRadius: '50%',
+            minWidth: '50px',
+            width: '50px',
+            height: '50px',
+            fontSize: '28px',
+            fontWeight: 'bold',
             '&:hover': {
-              backgroundColor: 'primary.main',
-              color: 'white'
+              background: 'linear-gradient(45deg, #c93a3a, #1e7a70)',
+              transform: 'scale(1.1)'
             }
           }}
         >
-          Back to Home
+          ‹
         </Button>
       </Box>
 
